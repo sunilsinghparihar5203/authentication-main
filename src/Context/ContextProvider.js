@@ -4,7 +4,6 @@ import { AuthContext } from "./Context";
 function AuthContextProvider(props) {
   const initialToken = localStorage.getItem('token')
   const [token, setToken] = useState(initialToken);
-  
   const userIsLoggedIn = !!token;
 
   const loginHandler = (token) =>{
