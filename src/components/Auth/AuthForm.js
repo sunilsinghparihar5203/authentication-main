@@ -56,10 +56,8 @@ const AuthForm = () => {
       })
       .then((data) => {
         authCTX.login(data.idToken)
-      }).then(()=>{
         history.push('/profile')
-      })
-      .catch((err) => {
+      }) .catch((err) => {
         alert(err.message);
       });
   };
