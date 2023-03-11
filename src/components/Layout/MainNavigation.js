@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext } from "react";
 import classes from "./MainNavigation.module.css";
 import { AuthContext } from "../../Context/Context";
 import { useHistory } from "react-router-dom";
